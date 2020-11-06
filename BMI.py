@@ -1,8 +1,7 @@
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 
-height_squared = float(height)**2
-weight_calc = int(weight)
-bmi = weight_calc / height_squared
+bmi = int(weight)/float(height)**2
+bmi_int = int(bmi)
 
-print("Your BMI is "+str(bmi))
+print("Your BMI is: \n"+str(bmi_int))
